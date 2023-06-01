@@ -43,3 +43,22 @@ For simplicity in creating binaries add all previous tasks i.e
 
 ## Testing binaries
 `./<task_name>` e.g `./0-node`
+
+## Some Terminologies
+- **Node**:
+- **Root**:
+- **Tree**:
+- **Child**:
+- **Tree Depth**: 
+- **Leaf**:
+- **Uncle**: In a binary tree, an uncle of a node is the sibling of its parent node. In other words, the uncle of a node is the parent’s sibling. For example, in the binary tree below, node 6 has two uncles: nodes 2 and 7. 
+```
+          1
+        /   \
+       2     3
+     /  \   /  \
+    4    5 6    7
+```
+- **Siblings**:
+- **Lowest Common Ancestor**: The lowest common ancestor (LCA) of two nodes x and y in a binary tree is the lowest (i.e., deepest) node that has both x and y as descendants, where each node can be a descendant of itself (so if x is reachable from w, w is the LCA). In other words, the LCA of x and y is the shared ancestor of x and y that is located farthest from the root.
+- Uncle: 
