@@ -27,3 +27,11 @@
 - The prototypes of all your functions should be included in your header file called binary_trees.h
 - Don’t forget to push your header file
 - All your header files should be include guarded
+
+## Creating New Binaries
+For simplicity in creating binaries add all previous tasks i.e
+`gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c main/<tasks-main.c> <task.c> <...previous-tasks.c> -o <binary_name>` example
+`gcc -Wall -Wextra -Werror -pedantic binary_tree_print.c main/1-main.c 1-binary_tree_insert_left.c 0-binary_tree_node.c -o 1-left`
+
+## Testing binaries
+`./<task_name>` e.g `./0-node`
